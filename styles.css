@@ -1,3 +1,27 @@
+* {
+  margin: 0;
+}
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
 body {
-  background: black;
+  background-color: black;
+}
+p#title-color {
+  color: var(--title-color);
+}
+p.text-color {
+  color: var(--text-color);
+}
+form.text-color {
+  color: var(--text-color);
+}
+
+input {
+  width: 798px;
+  height: 48px;
 }

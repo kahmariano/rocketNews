@@ -9,26 +9,23 @@
   --form-color: #a8a8a8;
   --bg-button-color: #8257e5;
 }
-
 div#image1 {
-  position: relative;
-  left: 8%;
-  margin-top: 50px;
-  margin-left: 30px;
-  width: 389px;
+  display: block;
+  justify-content: left;
+  margin-top: 5rem;
+  margin-left: 3rem;
 }
-
-div#image2 {
-  position: relative;
-  left: 50%;
-  top: -98px;
+div#texto {
+  display: block;
+  justify-content: left;
 }
-
 p#title-color {
   color: var(--title-color);
+  font-size: 3.5em;
 }
 p.text-color {
   color: var(--text-color);
+  font-size: 1.5em;
 }
 form.text-color {
   color: var(--text-color);

@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  background: black;
 }
 :root {
   --body-bg-color: #121214;
@@ -8,20 +9,21 @@
   --form-color: #a8a8a8;
   --bg-button-color: #8257e5;
 }
-body {
-  background-color: black;
-}
+
 div#image1 {
-  border: 1px solid white;
-  display: block;
-  justify-content: right;
-  width: 2px;
+  position: relative;
+  left: 8%;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 389px;
 }
-img#bobo {
-  display: inline-block;
-  width: 50%;
-  justify-content: center;
+
+div#image2 {
+  position: relative;
+  left: 50%;
+  top: -98px;
 }
+
 p#title-color {
   color: var(--title-color);
 }

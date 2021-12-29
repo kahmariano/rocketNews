@@ -11,6 +11,17 @@
 body {
   background-color: black;
 }
+div#image1 {
+  border: 1px solid white;
+  display: block;
+  justify-content: right;
+  width: 2px;
+}
+img#bobo {
+  display: inline-block;
+  width: 50%;
+  justify-content: center;
+}
 p#title-color {
   color: var(--title-color);
 }

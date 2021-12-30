@@ -3,42 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RocketNews</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="image1"><img src="./images/logo.svg" alt="logo" /></div>
-   <div id="image2">  <img src="./images/image.png" alt="Imagem" />
-    <div>
+    <img
+      id="background-image"
+      src="/images/image.png"
+      alt="Background bonito"
+    />
 
-    <div id="texto"><p id="title-color">
-      <strong>Atualize ideias e informações em 5 min.</strong>
-    </p>
-    <p class="text-color">
-      <strong
-        >Tudo que você precisa saber para começar seu dia bem e
-        informado</strong
-      >
-    </p>
-    <p class="text-color">
-      Notícias sobre o universo Rocketseat, e tudo o que precisa para começar o
-      dia melhor, perfeito para se preparar para codar☕
-    </p>
-  </div>
-  
-    <form action="" class="text-color">
-      <label for="email">Insira seu e-mail:</label>
-      <br />
-      <input
-        type="email"
-        name="email"
-        id="email"
-        placeholder="oi@rocketmail.com.br"
-      />
-      <button type="submit">
-        <img src="./images/button.svg" alt="enviar" />
-      </button>
-    </form>
+    <div class="container">
+      <img class="logo" src="/images/logo.svg" alt="Rocket News" />
+      <h1>atualize ideias e informações em 5 minutos.</h1>
+      <h2>tudo que você precisa saber para começar seu dia bem e informado</h2>
+      <p>
+        noticias sobre o universo Rocketseat, e tudo o que precisa para começar
+        o dia melhor. perfeito para se preparar para codar ☕
+      </p>
+
+      <form>
+        <span>
+          <label class="mail-label" htmlFor="email">Insira seu e-mail:</label>
+          <div class="input-container">
+            <input id="email" placeholder="Digite seu e-mail" type="text" />
+            <button type="submit">
+              <img src="/images/button.svg" alt="Enviar formulário" />
+            </button>
+          </div>
+        </span>
+      </form>
+      <a href="">deixe-me ler primeiro -></a>
+    </div>
   </body>
 </html>

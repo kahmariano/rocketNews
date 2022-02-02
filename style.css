@@ -27,6 +27,7 @@ img#background-image {
 }
 img.logo {
   max-width: 40%;
+  width: 100%;
   margin: 2rem;
 }
 
@@ -49,6 +50,53 @@ p {
   color: var(--text-color);
   margin: 1rem 0 0 2rem;
   font-size: 14px;
+  line-height: 20px;
+  max-width: 45%;
+}
 
+div.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  margin: 2rem 0 0 2rem;
+}
+
+div.input-container {
+  width: 70%;
+  display: flex;
+  margin: 1rem 0;
+  background-color: var(--text-color);
+  border-radius: 12px;
+  box-shadow: 4px 10px 15px 0px #00000080;
+}
+
+input,
+button {
+  border: 0;
+}
+
+input {
+  flex: 1;
+  height: 56px;
+  padding: 0 2rem;
+  font-size: 18px;
+  border-radius: 0.25rem;
+  border-left: 4px solid var(--title-color);
+}
+
+button {
+  background-color: var(--bg-button-color);
+}
+
+a {
+  font-weight: bold;
+  color: var(--bg-button-color);
+  margin-left: 2rem;
+  font-size: 14px;
   max-width: 50%;
 }
